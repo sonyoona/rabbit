@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee"
+xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
+https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="6.0">
+   <security-role>
+      <description></description>
+      <role-name></role-name>
+   </security-role>
+   <security-constraint>
+      <display-name>Rabbit Security</display-name>
+      <web-resource-collection>
+         <web-resource-name>Rabbit</web-resource-name>
+         <description></description>
+         <url-pattern></url-pattern>  <!-- 시작 페이지만 바꿔주면 될듯 -->  
+      </web-resource-collection>
+      <auth-constraint>
+         <description>권한 관리자명</description>
+         <role-name></role-name>
+      </auth-constraint>
+   </security-constraint>
+   <login-config>
+      <auth-method>FORM</auth-method>
+      <form-login-config>
+         <form-login-page>/postsDB.jsp</form-login-page>
+         <form-error-page>/login_failed.jsp</form-error-page>
+      </form-login-config>
+   </login-config>
+   
+   <filter>
+        <filter-name>AuthFilter</filter-name>
+        <filter-class>com.filter.AuthFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuthFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+</web-app>
+
+
