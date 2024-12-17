@@ -14,8 +14,8 @@
 <br><br><br>
 
   ## 게시글 페이지
-  ![image](https://github.com/kimjy0117/rabbit/assets/113746577/8ab15a69-6dd9-4e42-b095-c7afde0605b2)
-  ![image](https://github.com/kimjy0117/rabbit/assets/113746577/c7e9a301-ce02-4770-9dba-f68fe323e8e6)
+  ![image](https://github.com/user-attachments/assets/e32149bf-2bbb-4deb-bc81-beb9c0712d89)
+
 <br><br><br>
 
   ## 댓글 작성
