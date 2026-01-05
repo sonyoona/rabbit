@@ -1,6 +1,17 @@
 # RABBIT 중고 거래 게시판
- <br><br><br>
- 
+
+
+- 역할 : MySQL DB 설계, 사용자 관리 기능(로그인/회원가입 등) 백엔드 로직 구현, 회원 페이지 유효성 검사 구현
+
+- 성과 :
+◦ DB 연동 웹 서비스 구축: MySQL을 통해 실제 정보를 저장하고 조회하는 동적인 웹 사이트를 완성하여, 서버와 DB를 연결하는 능력을 확보
+◦ 사용자 인증 시스템 구현: JavaScript를 활용한 유효성 검사를 로그인/회원가입 페이지에 적용하여 데이터의 무결성을 확보하고 안정적인 사용자 인증 시스템을 구축
+◦ 백엔드 CRUD 로직 구현: 회원 정보 수정/삭제를 포함한 DB 관련 CRUD 로직을 구현
+
+<img width="500" height="200" align="left" alt="Frame 18" src="https://github.com/user-attachments/assets/22f2cac7-aeec-4d93-be96-dbe081cd5a16" />
+<br clear="left">
+
+
   ## 메인 페이지
   ![KakaoTalk_20240610_194339828](https://github.com/kimjy0117/rabbit/assets/113746577/b28d5658-db24-4aa2-9857-8cfffde6bc0a)
 <br><br><br>
